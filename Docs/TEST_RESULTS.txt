@@ -1,0 +1,25 @@
+PASS natural numeric name order
+PASS name descending
+PASS modified descending
+PASS size descending
+PASS pixel area descending
+PASS case-insensitive search
+PASS whitespace search normalization
+PASS no filters
+PASS rating threshold
+PASS favorites only
+PASS rating AND favorite
+PASS filter excludes everything
+PASS stable deterministic tie break
+13 BrowserQuery tests passed
+PASS bounded cache size
+PASS oldest cache files pruned first
+PASS non-cache file preservation
+3 DiskCacheJanitor tests passed
+
+Additional checks (Linux 2026-11-07):
+- PASS: Swift grammar parse of 24 application source files (swiftc -frontend -parse)
+- PASS: Xcode PBX source-to-path registry for all 24 Swift files
+- PASS: OpenStep .pbxproj parser (plutil -lint)
+- NOT RUN: xcodebuild or macOS AppKit typechecking (requires macOS/Xcode)
+- NOT RUN: UI/resize/filmstrip test or M5 performance benchmark

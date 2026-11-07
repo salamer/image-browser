@@ -1,0 +1,23 @@
+PASS natural numeric name order
+PASS name descending
+PASS modified descending
+PASS size descending
+PASS pixel area descending
+PASS case-insensitive search
+PASS whitespace search normalization
+PASS no filters
+PASS rating threshold
+PASS favorites only
+PASS rating AND favorite
+PASS filter excludes everything
+PASS stable deterministic tie break
+13 BrowserQuery tests passed
+PASS bounded cache size
+PASS oldest cache files pruned first
+PASS non-cache file preservation
+3 DiskCacheJanitor tests passed
+PASS 66 PreviewGeometry assertions and 60 window-size combinations
+PASS 5 photo navigation keymap assertions
+PASS ChromeGeometry: 255 containment/zero-size/adaptive checks
+PASS DecodeFailureThrottle: expiration, clear, capacity, concurrency
+PASS SidebarGeometry: 290 zero-size/small-window assertions

@@ -1,0 +1,10 @@
+SwiftLens 0.6: Linux/static validation
+29 Swift files passed swiftc -frontend -parse (syntax only)
+29 Swift files matched Xcode project Build Sources references
+plutil -lint Xcode project.pbxproj: PASS
+13 BrowserQuery tests: PASS
+3 DiskCacheJanitor tests: PASS
+9 PreviewGeometry assertions: PASS
+5 PhotoKeymap assertions: PASS
+Total: 30 assertions/tests passed
+NOT RUN: xcodebuild, macOS AppKit typechecking, GUI integration, actual M5 performance
